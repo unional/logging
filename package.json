@@ -74,7 +74,7 @@
     "param-case": "^2.1.1",
     "pascal-case": "^2.0.1",
     "rimraf": "^2.6.2",
-    "semantic-release": "^12.4.1",
+    "semantic-release": "^15.0.0",
     "ts-loader": "^3.5.0",
     "tslint": "^5.9.1",
     "tslint-config-unional": "^0.9.1",
