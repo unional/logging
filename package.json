@@ -32,7 +32,7 @@
   "devDependencies": {
     "@unional/devpkg-node": "^1.1.4",
     "assertron": "^6.0.0",
-    "aurelia-logging-color": "^0.5.16",
+    "aurelia-logging-color": "^1.0.0",
     "aurelia-logging-memory": "^0.3.2",
     "param-case": "^2.1.1",
     "pascal-case": "^2.0.1",
