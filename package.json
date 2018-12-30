@@ -11,7 +11,7 @@
     "build:watch": "tsc -b -w",
     "coverage": "yarn jest --coverage",
     "test": "yarn jest",
-    "verify": "yarn coverage && yarn build",
+    "verify": "yarn build && yarn coverage",
     "watch": "yarn jest --watch"
   },
   "devDependencies": {
