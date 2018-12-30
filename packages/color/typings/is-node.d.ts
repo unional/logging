@@ -1,1 +1,1 @@
-declare module "is-node"
+declare module 'is-node'
