@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "aurelia-logging": "^1.5.1",
+    "global-store": "^0.7.3",
     "unpartial": "^0.4.1",
     "upper-case": "^1.1.3"
   },

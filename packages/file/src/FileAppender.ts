@@ -4,6 +4,7 @@ import path from 'path';
 import { unpartial } from 'unpartial';
 import uppercase from 'upper-case';
 import { stringifyLogLevel } from './stringifyLogLevel';
+import { store } from './store';
 
 export type FormatMessage = (loggerId: string, logLevel: number, messages: any[]) => string
 export type FileAppenderOptions = {
@@ -12,6 +13,7 @@ export type FileAppenderOptions = {
 }
 export class FileAppender {
   static addCustomLevel(name: string, level: number) {
+    store.get().logLevelLookup.set(level, name);
     (FileAppender as any).prototype[name] = function (
       this: FileAppender,
       logger: { id: string },

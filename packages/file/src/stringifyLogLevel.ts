@@ -1,6 +1,5 @@
-import { logLevel } from 'aurelia-logging';
-import upperCase from 'upper-case';
+import { store } from './store';
 
-export function stringifyLogLevel(level: number) {
-  return upperCase(Object.keys(logLevel).find(n => logLevel[n] === level) || level.toString())
+export function stringifyLogLevel(level: number): string {
+  return store.get().logLevelLookup.get(level) as string
 }

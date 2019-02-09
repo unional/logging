@@ -63,9 +63,22 @@ test('customize format using function', () => {
   f.debug(logger, 'debug')
 
   const actual = fs.readFileSync(f.filepath, 'utf-8')
-  expect(actual).toBe(`log(ERROR): error
-log(WARN): warn
-log(INFO): info
-log(DEBUG): debug
+  expect(actual).toBe(`log(error): error
+log(warn): warn
+log(info): info
+log(debug): debug
+`)
+})
+
+test('log with custom level', () => {
+  FileAppender.addCustomLevel('silly', 50)
+  ensureNotExist('fixtures/format-fn/x.log')
+
+  const cwd = resolvePath('fixtures/format-fn')
+  const f = new FileAppender('x.log', { cwd })
+  const logger = { id: 'log' };
+  (f as any).silly(logger, 'silly')
+  const actual = fs.readFileSync(f.filepath, 'utf-8')
+  expect(actual).toBe(`log SILLY silly
 `)
 })
