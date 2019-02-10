@@ -1,2 +1,2 @@
-export * from './LogLevel';
+export * from './logLevel';
 export * from './syslog';
