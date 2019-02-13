@@ -8,25 +8,13 @@
       "path": "packages/aurelia-file/tsconfig.lib.json"
     },
     {
-      "path": "packages/logging/tsconfig.lib.json"
-    },
-    {
       "path": "packages/aurelia-memory/tsconfig.lib.json"
     },
     {
       "path": "packages/aurelia-simple-console/tsconfig.lib.json"
     },
     {
-      "path": "packages/standard-log/tsconfig.lib.json"
-    },
-    {
-      "path": "packages/standard-log-core/tsconfig.lib.json"
-    },
-    {
-      "path": "packages/standard-log-console/tsconfig.lib.json"
-    },
-    {
-      "path": "packages/standard-log-memory/tsconfig.lib.json"
+      "path": "packages/logging/tsconfig.lib.json"
     }
   ]
 }
