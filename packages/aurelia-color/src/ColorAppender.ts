@@ -22,7 +22,7 @@ const info = typeof console.info === 'function' ? console.info : console.log
 const warn = typeof console.warn === 'function' ? console.warn : console.log
 // istanbul ignore next
 // tslint:disable-next-line
-const error = typeof console.warn === 'function' ? console.warn : console.log
+const error = typeof console.error === 'function' ? console.error : console.log
 
 function getLogMethod(level: number) {
   if (level >= logLevel.debug) return debug
