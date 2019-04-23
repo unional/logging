@@ -45,3 +45,4 @@ node_modules
 lib*
 out*
 .nowhere
+tsconfig*tsbuildinfo
