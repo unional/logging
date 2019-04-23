@@ -1,5 +1,5 @@
 import { logLevel } from 'aurelia-logging';
-import { create } from 'global-store';
+import { createStore } from 'global-store';
 import { Appender, Logger } from './interfaces';
 import { SimpleConsoleAppender } from './SimpleConsoleAppender';
 
@@ -17,4 +17,4 @@ const defaultValue: LoggingStore = {
   appenders: []
 }
 
-export const store = create('@unional/logging', defaultValue)
+export const store = createStore('@unional/logging', defaultValue)
