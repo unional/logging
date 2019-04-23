@@ -1,7 +1,7 @@
 {
   "name": "@unional/logging",
   "description": "A logging library that doesn't suck",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/unional/logging",
   "bugs": {
     "url": "https://github.com/unional/logging/issues"
@@ -27,8 +27,9 @@
     "bundle": "webpack",
     "dc": "yarn dependency-check",
     "dependency-check": "dependency-check . --unused --no-dev && dependency-check . --missing --no-dev",
-    "preversion": "rimraf dist lib && yarn test && yarn build && yarn dc && yarn bundle",
-    "test": "jest",
+    "preversion": "yarn verify",
+    "verify": "yarn build && yarn test && yarn dc && yarn bundle",
+    "test": "jest --reporters=default",
     "watch": "jest --watch"
   },
   "devDependencies": {
