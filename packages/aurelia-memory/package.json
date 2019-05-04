@@ -25,10 +25,12 @@
   "scripts": {
     "build": "tsc -p tsconfig.lib.json",
     "bundle": "webpack",
+    "clean": "rimraf dist lib *.tsbuildinfo",
     "dc": "yarn dependency-check",
     "dependency-check": "dependency-check . --unused --no-dev && dependency-check . --missing --no-dev",
-    "preversion": "rimraf dist lib && yarn test && yarn build && yarn dc && yarn bundle",
-    "test": "jest",
+    "preversion": "yarn clean && yarn verify",
+    "verify": "yarn build && yarn dc && yarn bundle && yarn test",
+    "test": "jest --reporters=default",
     "watch": "jest --watch"
   },
   "dependencies": {
