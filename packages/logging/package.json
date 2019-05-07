@@ -1,6 +1,6 @@
 {
   "name": "@unional/logging",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A logging library that doesn't suck",
   "homepage": "https://github.com/unional/logging",
   "bugs": {
