@@ -2,7 +2,7 @@ import { logLevel } from 'aurelia-logging';
 import { createBrush } from './createBrush';
 import { isNode } from './environments';
 import { Brush, BrushOption, ColorModeOption } from './interfaces';
-import semver from 'semver'
+import { semverGt } from './semverGt';
 
 export interface ColorAppenderOption extends BrushOption, ColorModeOption {
 }
@@ -37,7 +37,7 @@ function isConsoleDebugAvailable() {
   // without this, systemjs will complain `process is not defined`
   if (!global.process) return true
   const versionString = process.version.startsWith('v') ? process.version.slice(1) : process.version
-  return semver.gt(versionString, '9.3.0')
+  return semverGt(versionString, [9, 3, 0])
 }
 
 /**
