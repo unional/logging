@@ -33,6 +33,9 @@
     "test": "jest --reporters=default",
     "watch": "jest --watch"
   },
+  "peerDependencies": {
+    "aurelia-logging": "^1.5.2"
+  },
   "dependencies": {
     "aurelia-logging": "^1.5.2",
     "color-map": "^1.1.0",
