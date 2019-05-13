@@ -37,8 +37,5 @@
     "aurelia-logging": "^1.5.2",
     "color-map": "^1.1.0",
     "is-node": "^1.0.2"
-  },
-  "devDependencies": {
-    "@types/semver": "^5.5.0"
   }
 }
