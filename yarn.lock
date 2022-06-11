@@ -1362,9 +1362,9 @@ acorn-walk@^6.0.1, acorn-walk@^6.1.0:
   integrity sha512-OtUw6JUTgxA2QoqqmrmQ7F2NYqiBPi/L2jqHyFtllhOUvXYQXf0Z1CYUinIfyT4bTCGmrA7gX9FvHA81uzCoVw==
 
 acorn@^5.0.0, acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.2, acorn@^6.0.5, acorn@^6.0.7:
   version "6.1.1"
@@ -7696,12 +7696,19 @@ type-name@^2.0.1:
   resolved "https://registry.yarnpkg.com/type-name/-/type-name-2.0.2.tgz#efe7d4123d8ac52afff7f40c7e4dec5266008fb4"
   integrity sha1-7+fUEj2KxSr/9/QMfk3sUmYAj7Q=
 
-type-plus@^1.1.2, type-plus@^1.18.0:
+type-plus@^1.1.2:
   version "1.18.0"
   resolved "https://registry.yarnpkg.com/type-plus/-/type-plus-1.18.0.tgz#fc999a183a7b7d6ef209cd7f9d819ec91f791a6f"
   integrity sha512-HvZF4o5a+EA9VyjjIp1V/aQ83DYd0gwFwERM98cayHE1i26oi/Ctpz7v+DZ9iYFdtg7J+91Ruq7uZetj9jE8+A==
   dependencies:
     unpartial "^0.6.0"
+
+type-plus@^1.23.0:
+  version "1.35.1"
+  resolved "https://registry.yarnpkg.com/type-plus/-/type-plus-1.35.1.tgz#15e39a0922fdf08d8d24cc7d1a5d50d3273434de"
+  integrity sha512-El1yp4aLFVpOwU/emJRxqw7+OsA8gUWILnrS8Ln5rafvHSG5tHopvmQLIBPdkFfRk65ZBcipVlk3XcfkL36jng==
+  dependencies:
+    unpartial "^0.6.3"
 
 typedarray@^0.0.6:
   version "0.0.6"
@@ -7806,6 +7813,11 @@ unpartial@^0.6.0, unpartial@^0.6.1, unpartial@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/unpartial/-/unpartial-0.6.2.tgz#b044bf6b7e97a5c666b383dc4e63f07ee4ecdab6"
   integrity sha512-QriJtonJVPu1qwxTdt9J7JgbQjUw+IKnp7Cj5aIVmg4N2+Mfe/a7GW53hb+eNlz3O5SKQDuw8LX67wgZ2DIX7g==
+
+unpartial@^0.6.3:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/unpartial/-/unpartial-0.6.4.tgz#9cf878d3c8335919b250cfb3393751ca12cc26a4"
+  integrity sha512-t/aGg/x8vW0KCjPB8A6TBB1hd0wnWMze8WD83uUpqSDm99jmhY2ZcHpivlvvSGmPCJ/S5ASZzxeQHga4JTW/4A==
 
 unset-value@^1.0.0:
   version "1.0.0"
