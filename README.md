@@ -13,6 +13,12 @@
 [![Visual Studio Code][vscode-image]][vscode-url]
 [![Wallaby.js][wallaby-image]][wallaby-url]
 
+## Important message
+
+This library is deprecated in favor of [standard-log](https://github.com/unional/standard-log).
+
+## Overview
+
 A logging library that doesn't suck.
 
 This library was based on [`aurelia-logging`](https://github.com/aurelia/logging).
