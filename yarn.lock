@@ -5023,9 +5023,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.5, lodash@^4.2.1:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -7696,12 +7696,19 @@ type-name@^2.0.1:
   resolved "https://registry.yarnpkg.com/type-name/-/type-name-2.0.2.tgz#efe7d4123d8ac52afff7f40c7e4dec5266008fb4"
   integrity sha1-7+fUEj2KxSr/9/QMfk3sUmYAj7Q=
 
-type-plus@^1.1.2, type-plus@^1.18.0:
+type-plus@^1.1.2:
   version "1.18.0"
   resolved "https://registry.yarnpkg.com/type-plus/-/type-plus-1.18.0.tgz#fc999a183a7b7d6ef209cd7f9d819ec91f791a6f"
   integrity sha512-HvZF4o5a+EA9VyjjIp1V/aQ83DYd0gwFwERM98cayHE1i26oi/Ctpz7v+DZ9iYFdtg7J+91Ruq7uZetj9jE8+A==
   dependencies:
     unpartial "^0.6.0"
+
+type-plus@^1.23.0:
+  version "1.35.1"
+  resolved "https://registry.yarnpkg.com/type-plus/-/type-plus-1.35.1.tgz#15e39a0922fdf08d8d24cc7d1a5d50d3273434de"
+  integrity sha512-El1yp4aLFVpOwU/emJRxqw7+OsA8gUWILnrS8Ln5rafvHSG5tHopvmQLIBPdkFfRk65ZBcipVlk3XcfkL36jng==
+  dependencies:
+    unpartial "^0.6.3"
 
 typedarray@^0.0.6:
   version "0.0.6"
@@ -7806,6 +7813,11 @@ unpartial@^0.6.0, unpartial@^0.6.1, unpartial@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/unpartial/-/unpartial-0.6.2.tgz#b044bf6b7e97a5c666b383dc4e63f07ee4ecdab6"
   integrity sha512-QriJtonJVPu1qwxTdt9J7JgbQjUw+IKnp7Cj5aIVmg4N2+Mfe/a7GW53hb+eNlz3O5SKQDuw8LX67wgZ2DIX7g==
+
+unpartial@^0.6.3:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/unpartial/-/unpartial-0.6.4.tgz#9cf878d3c8335919b250cfb3393751ca12cc26a4"
+  integrity sha512-t/aGg/x8vW0KCjPB8A6TBB1hd0wnWMze8WD83uUpqSDm99jmhY2ZcHpivlvvSGmPCJ/S5ASZzxeQHga4JTW/4A==
 
 unset-value@^1.0.0:
   version "1.0.0"
